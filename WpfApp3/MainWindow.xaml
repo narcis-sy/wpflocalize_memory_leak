@@ -40,7 +40,7 @@
         <ItemsControl ItemsSource="{ Binding ElementName=root, Path=List}" Margin="0, 50,0,0">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Button Content="{lex:Loc Test}"></Button>
+                    <Button Content="{lex:Loc Test}" Style="{StaticResource Btn}"></Button>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>

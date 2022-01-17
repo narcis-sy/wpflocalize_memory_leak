@@ -108,6 +108,8 @@ namespace WpfApp3
             Dispatcher.InvokeAsync(() => Chance_OnClick(sender, e));
 
             Dispatcher.InvokeAsync(() => Collect_OnClick(sender, e));
+
+            Dispatcher.InvokeAsync(() => Add_OnClick(sender, e));
         }
     }
 }

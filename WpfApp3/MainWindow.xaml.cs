@@ -78,5 +78,11 @@ namespace WpfApp3
                 LocalizeDictionary.Instance.Culture = new CultureInfo("en-US");
             }
         }
+
+        private void Collect_OnClick(object sender, RoutedEventArgs e)
+        {
+            GC.Collect();
+            GC.Collect();
+        }
     }
 }

@@ -10,7 +10,7 @@
         lex:ResxLocalizationProvider.DefaultAssembly="WpfApp3"
         lex:ResxLocalizationProvider.DefaultDictionary="Resource1"
         x:Name="root"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1000">
     <Window.Resources>
         <Style x:Key="Btn" TargetType="{x:Type Button}">
 
@@ -36,7 +36,8 @@
         <Button Click="Add_OnClick" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left"> Add</Button>
         <Button Click="Remove_OnClick" Margin="220,0,0,0" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left"> Remove</Button>
         <Button Click="Chance_OnClick" Margin="440,0,0,0" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left"> Change Language</Button>
-        <Button Click="Collect_OnClick" Margin="660,0,0,0" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left"> Collect</Button>
+        <Button Click="Collect_OnClick" Margin="660,0,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left"> Collect</Button>
+        <Button Click="Scenario1" Margin="800,0,0,0" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left"> Scenario1</Button>
 
         <ItemsControl ItemsSource="{ Binding ElementName=root, Path=List}" Margin="0, 50,0,0">
             <ItemsControl.ItemTemplate>
